@@ -1,11 +1,73 @@
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    color: #333;
+    text-align: center;
 }
+
+/* Encabezado */
+h1 {
+    background-color: #004a99;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.5em;
+    border-radius: 10px 10px 10px ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Línea divisoria */
+hr {
+    width: 80%;
+    border: 1px solid #fff;
+    margin: 20px auto;
+}
+
+/* Estilos para la imagen con marco */
+img {
+    border: 8px solid #004a99;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    padding: 10px;
+}
+
+/* Estilos de secciones con diferentes colores */
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Colores por sección */
+.zonas_turisticas {
+    background-color: #ffcccb; /* Rojo suave */
+}
+
+.comida_rapida {
+    background-color: #b3e6ff; /* Azul claro */
+}
+
+.sector_economico {
+    background-color: #c8e6c9; /* Verde pastel */
+}
+
+/* Estilos de listas */
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
+    list-style: none;
+    padding: 0;
 }
+
 li {
-    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1.2em;
 }
+
+ol {
+    font-size: 1em;
+    color: #555;
+}
+
